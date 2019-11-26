@@ -12,6 +12,10 @@
 		CE03F10C238D557B00BAE566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE03F10A238D557B00BAE566 /* Main.storyboard */; };
 		CE03F10E238D557C00BAE566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE03F10D238D557C00BAE566 /* Assets.xcassets */; };
 		CE03F111238D557C00BAE566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE03F10F238D557C00BAE566 /* LaunchScreen.storyboard */; };
+		CE03F11C238D587000BAE566 /* woof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE03F118238D587000BAE566 /* woof.m4a */; };
+		CE03F11D238D587000BAE566 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE03F119238D587000BAE566 /* meow.m4a */; };
+		CE03F11E238D587000BAE566 /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F11A238D587000BAE566 /* SimpleSound.swift */; };
+		CE03F11F238D587000BAE566 /* moo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE03F11B238D587000BAE566 /* moo.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		CE03F10D238D557C00BAE566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE03F110238D557C00BAE566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE03F112238D557C00BAE566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE03F118238D587000BAE566 /* woof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woof.m4a; sourceTree = "<group>"; };
+		CE03F119238D587000BAE566 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		CE03F11A238D587000BAE566 /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		CE03F11B238D587000BAE566 /* moo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moo.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		CE03F105238D557B00BAE566 /* AnimalSounds */ = {
 			isa = PBXGroup;
 			children = (
+				CE03F119238D587000BAE566 /* meow.m4a */,
+				CE03F11B238D587000BAE566 /* moo.m4a */,
+				CE03F11A238D587000BAE566 /* SimpleSound.swift */,
+				CE03F118238D587000BAE566 /* woof.m4a */,
 				CE03F106238D557B00BAE566 /* AppDelegate.swift */,
 				CE03F108238D557B00BAE566 /* ViewController.swift */,
 				CE03F10A238D557B00BAE566 /* Main.storyboard */,
@@ -122,9 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE03F11F238D587000BAE566 /* moo.m4a in Resources */,
 				CE03F111238D557C00BAE566 /* LaunchScreen.storyboard in Resources */,
 				CE03F10E238D557C00BAE566 /* Assets.xcassets in Resources */,
 				CE03F10C238D557B00BAE566 /* Main.storyboard in Resources */,
+				CE03F11D238D587000BAE566 /* meow.m4a in Resources */,
+				CE03F11C238D587000BAE566 /* woof.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE03F11E238D587000BAE566 /* SimpleSound.swift in Sources */,
 				CE03F109238D557B00BAE566 /* ViewController.swift in Sources */,
 				CE03F107238D557B00BAE566 /* AppDelegate.swift in Sources */,
 			);
